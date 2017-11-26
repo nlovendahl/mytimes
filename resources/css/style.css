@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+}
+
+span {
+  display: inline-block;
+}
+
+.header {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+}
