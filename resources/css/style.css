@@ -1,15 +1,44 @@
-nav {
+
+/* Universal Styles */
+
+
+
+/* Header */
+
+header {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  margin: 20px 10px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+nav {
+  margin: 0 30px;
 }
 
 span {
   display: inline-block;
+  margin: 10px;
 }
 
-.header {
-  display: flex;
+span a {
+  color: black;
 }
 
 .logo {
-  display: flex;
+  display: inline-flex;
+  margin: 10px 15px;
+  color: MediumAquamarine;
 }
