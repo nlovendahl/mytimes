@@ -30,6 +30,7 @@ nav {
 
 span {
   display: inline-block;
+  flex-grow: 1;
   margin: 10px;
 }
 
@@ -39,6 +40,35 @@ span a {
 
 .logo {
   display: inline-flex;
+  flex-grow: 2;
   margin: 10px 15px;
   color: MediumAquamarine;
+}
+
+/* Main Container */
+
+div {
+  border: 2px solid black;
+}
+
+.main {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.column {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
