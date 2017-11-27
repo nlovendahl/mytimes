@@ -168,17 +168,34 @@ h3 {
 
 footer {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
 }
 
-title {
+footer .title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
   color: white;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+footer nav span a {
+  font-size: 12px;
+  font-family: Verdana;
+  font-weight; normal;
 }
